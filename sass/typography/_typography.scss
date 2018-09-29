@@ -9,8 +9,12 @@ optgroup,
 textarea {
 	color: $color__text-main;
 	font-family: $font__gilroy;
-	@include font-size(1);
+	@include font-size(.9);
 	line-height: $font__line-height-body;
+
+	@media screen and (min-width: $query__screen_size_small) {
+		@include font-size(1);
+	}
 }
 
 @import "headings";

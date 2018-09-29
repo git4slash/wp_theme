@@ -1,7 +1,9 @@
 // Rem output with px fallback
 @mixin font-size($sizeValue: 1) {
-	font-size: ($sizeValue * 16) * 1px;
-	font-size: $sizeValue * 1rem;
+	//font-size: ($sizeValue * 16) * 1px;
+	font-size: ($sizeValue * 20) * 1px;
+	// new rem size is: (new font-size)/(old font-size) => 20/16 = 1.25rem
+	font-size: $sizeValue * 1.25rem;
 }
 
 // Center block
