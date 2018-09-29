@@ -1001,6 +1001,16 @@ a:hover, a:active {
 	}
 }
 
+.icon-logo {
+	width: 30px;
+	height: 20px;
+	color: #6c6c6c;
+	-webkit-transition: color .3s linear 0s;
+	transition: color .3s linear 0s;
+	fill: currentColor;
+	visibility: visible;
+}
+
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
