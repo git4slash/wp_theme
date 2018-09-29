@@ -1,0 +1,10 @@
+.site-header {
+  position: relative;
+  padding: 1em;
+  color: #FFFFFF;
+  background-color: $color__header_background;
+
+  @media screen and (min-width: 900px){
+    padding: 1em 2em;
+  }
+}
