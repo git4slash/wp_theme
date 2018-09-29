@@ -26,6 +26,10 @@
 
     <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'finleap' ); ?></a>
 
+    <figure class="header-image">
+	    <?php the_header_image_tag(); ?>
+    </figure><!-- .header-image -->
+
     <header id="masthead" class="site-header">
 
 		<?php get_template_part( 'template-parts/header/site', 'branding' /* Logo, title and main menu */ ); ?>
